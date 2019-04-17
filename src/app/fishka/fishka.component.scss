@@ -1,0 +1,22 @@
+.fishka {
+  width: 100px;
+  height: 100px;
+  background: lightgray;
+  border-radius: 10px;
+  box-shadow: 1px 1px 5px black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3em;
+  color: rgb(23, 109, 112);
+  transition-duration: 400ms;
+  &:hover {
+    cursor: pointer;
+    transform: scale(1.05, 1.05);
+  }
+}
+
+.empty {
+  width: 100px;
+  height: 100px;
+}

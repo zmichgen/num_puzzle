@@ -1,0 +1,4 @@
+<div *ngIf='condition; else unset' class='fishka' [id]='id' (click)='Check($event)'>{{value}}</div>
+<ng-template #unset>
+  <div class='empty' id='16'></div>
+</ng-template>
