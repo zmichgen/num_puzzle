@@ -1,5 +1,6 @@
 <div id="field" class='container'>
-  <app-fishka *ngFor='let item of arrData; let i = index' [id]='item' [value]='item' (check)='check($event)'>
+  <app-fishka *ngFor='let item of arrData; let i = index' [id]='item' [value]='item' (check)='check($event)'
+    [arrData]='arrData' [move]='move' [emptyItemPos]='emptyItemPos'>
   </app-fishka>
 </div>
 <button (click)='sort()'>Sort</button>

@@ -1,6 +1,20 @@
+$size: 12vh;
 .fishka {
-  width: 16vh;
-  height: 16vh;
+  width: $size;
+  height: $size;
+  background: lightgray;
+  border-radius: 10px;
+  box-shadow: 1px 1px 5px black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3em;
+  color: rgb(23, 109, 112);
+}
+
+.fishka-over {
+  width: $size;
+  height: $size;
   background: lightgray;
   border-radius: 10px;
   box-shadow: 1px 1px 5px black;
@@ -17,6 +31,6 @@
 }
 
 .empty {
-  width: 16vh;
-  height: 16vh;
+  width: $size;
+  height: $size;
 }

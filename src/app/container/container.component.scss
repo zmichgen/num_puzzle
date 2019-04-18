@@ -1,6 +1,7 @@
+$size: 50vh;
 .container {
-  width: 69vh;
-  height: 69vh;
+  width: $size;
+  height: $size;
   border: 1px solid gray;
   display: flex;
   flex-direction: row;
